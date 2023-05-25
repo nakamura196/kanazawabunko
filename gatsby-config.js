@@ -1,7 +1,7 @@
 const {applyxslt} = require('./scripts/applyxslt')
 
 module.exports = {
-  pathPrefix: "/gatsby-ceteicean-workshop",
+  pathPrefix: "/kanazawabunko",
   siteMetadata: {
     title: `金沢文庫DB TEI/XMLデモサイト`,
     menuLinks: [
