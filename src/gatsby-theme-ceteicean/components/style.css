@@ -1,0 +1,15 @@
+tei-del {
+  text-decoration: line-through;
+}
+
+tei-add {
+  color: #cd5c5c;
+}
+
+.box-scroll {
+  margin-top: 48px;
+  overflow-x: auto;
+  writing-mode: vertical-rl;
+  width: 100%;
+  background-color: #f5f5f5;
+}
