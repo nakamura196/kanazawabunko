@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_ceteicean_workshop=self.webpackChunkgatsby_ceteicean_workshop||[]).push([[682],{5465:function(e,t,a){a.r(t);var l=a(7294),n=a(389);t.default=()=>l.createElement(n.Z,{location:"about"},l.createElement("h2",null,"このサイトについて"),l.createElement("div",null,l.createElement("p",null,"金沢文庫DBで公開されているテキストを利用しています。")))}}]);
+//# sourceMappingURL=component---src-pages-about-js-d81e9bce5782230e3d04.js.map

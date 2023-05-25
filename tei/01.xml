@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/ldasjp8/tei-example/main/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>金沢貞顕書状</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication</p>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person xml:id="北条顕時">
+                        <persName>北条顕時</persName>
+                        <note type="schema:description">北条 顕時（ほうじょう あきとき）は、鎌倉時代中期から後期にかけての武将。北条氏の一門・金沢流北条氏の第3代当主。金沢顕時とも称される。父は第2代（実質的には初代）当主で鎌倉幕府の重職を歴任した北条実時。正室は安達泰盛の娘・千代野。 安達泰盛が霜月騒動で粛清されたことにより逼塞を余儀なくされたが、その後に第9代執権・北条貞時の信頼を回復して復権。顕時の代に、金沢流北条氏は全盛期を迎えた。</note>
+                        <note type="schema:url">https://ja.wikipedia.org/wiki/%E5%8C%97%E6%9D%A1%E9%A1%95%E6%99%82</note>
+                        <note type="schema:image" subtype="Wikipedia" source="https://commons.wikimedia.org/wiki/File:H%C5%8Dj%C5%8D_Akitoki.jpg">https://upload.wikimedia.org/wikipedia/commons/5/5b/H%C5%8Dj%C5%8D_Akitoki.jpg</note>
+                    </person>
+                    <person xml:id="審海">
+                        <persName>審海</persName>
+                    </person>
+                    <person xml:id="覚恵">
+                        <persName>覚恵</persName>
+                        <note type="schema:description">覚恵（かくえ、暦仁2年・延応元年〈1239年〉頃 - 徳治2年4月12日〈1307年5月14日〉）は、鎌倉時代の浄土真宗の僧。父は、母は親鸞の末娘覚信尼。妻は周防権守中原某の娘。子は覚如。異父弟に唯善。 幼少より京都青蓮院で天台宗の教えを学び、その後如信（覚恵の従兄）の元で、外祖父の親鸞の教えを深める。 弘安6年（1283年）、母・覚信尼より大谷廟堂の留守職を譲り受ける（大谷廟堂二代目留守職）。</note>
+                        <note type="schema:url">https://ja.wikipedia.org/wiki/%E8%A6%9A%E6%81%B5_(%E6%B5%84%E5%9C%9F%E7%9C%9F%E5%AE%97)</note>
+                    </person>
+                    <person xml:id="北条貞顕">
+                        <persName>北条貞顕</persName>
+                        <note type="schema:name">金沢貞顕</note>
+                        <note type="schema:description">北条 貞顕（ほうじょう さだあき）は、鎌倉時代末期の武将。北条氏の一門で鎌倉幕府第12代連署（在職：正和4年（1315年）7月12日 - 嘉暦元年（1326年）3月16日）、第15代執権（在職：正中3年3月16日（1326年4月19日） - 正中3年3月26日（1326年4月29日））。 父は金沢流の北条顕時。母は摂津の御家人である遠藤為俊の娘・入殿。金沢文庫で有名な北条実時の孫に当たる。金沢 貞顕（かねさわ さだあき）とも呼ばれる。</note>
+                        <note type="schema:url">https://ja.wikipedia.org/wiki/%E5%8C%97%E6%9D%A1%E8%B2%9E%E9%A1%95</note>
+                        <note type="schema:image" subtype="Wikipedia" source="https://commons.wikimedia.org/wiki/File:Houjou_Sadaaki.JPG">https://upload.wikimedia.org/wikipedia/commons/3/31/Houjou_Sadaaki.JPG</note>
+                    </person>
+                    
+                    <person xml:id="釼阿">
+                        <persName>剱阿</persName>
+                        <note type="schema:description">剱阿（けんな、弘長元年（1261年）- 暦応元年11月16日（1338年12月27日））は、鎌倉時代の真言密教の学僧。明忍房と号す。金沢称名寺2世長老。 開山の審海に次いで、延慶元年（1308年）称名寺第2代住持となる。真言密教をはじめとして、戒律・神道・声明などにも造詣が深く、忍性・審海亡きあとの鎌倉における真言密教の代表者であり、称名寺における仏教学を振興するとともに七堂伽藍を整備完成した。北条貞顕の信任を受け、貞顕の六波羅探題・連署時代には政治的に著しいものがあり、また金沢北条氏滅亡後には、ただちに称名寺を勅願寺として認めさせるなどの手腕を発揮した。その間吉田兼好との交友もみられ、強い影響を与えている。</note>
+                        <note type="schema:url">https://ja.wikipedia.org/wiki/%E5%89%B1%E9%98%BF</note>
+                    </person>
+                </listPerson>
+                
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">
+            <p>
+            <lb/>賢察候、就中<persName corresp="#北条顕時">先考</persName>月忌
+            <lb/>仏事并堂舎已下破壊、
+            <lb/>或被勧申<persName corresp="#審海">長老</persName>或可被譴
+            <lb/>責<persName corresp="#覚恵">二宮</persName>候、如此事、一向貴辺
+            <lb/>御坐心安思給候、常可申候、
+            <lb/>亦不漏便風承候者本
+            <lb/>意候哉、毎事又々可啓候也、
+            <lb/>恐々謹言、
+            <lb/>　　<date when="" when-custom="正安四年八月四日">八月四日</date>　　<persName corresp="#北条貞顕">左近将監</persName><signed type="parallel" xml:id="o-0001">（花押）</signed>
+            <lb/>　明忍<persName corresp="#釼阿">御房</persName>
+            </p>
+            </div>
+        </body>
+    </text>
+    <facsimile source="https://gist.githubusercontent.com/nakamura196/c83367eb3a415bad3195b143125821eb/raw/e2a5b45f5fed0d84374837075ac62702c5318c08/manifest.json">
+        <surface source="https://kanazawabunko-db.pen-kanagawa.ed.jp/iiif/2/3/canvas/p1">
+            <zone xml:id="z-0001" ulx="851" uly="1168" lrx="1009" lry="1312"/>
+        </surface>
+    </facsimile>
+</TEI>
