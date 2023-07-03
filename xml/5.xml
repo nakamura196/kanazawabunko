@@ -43,6 +43,16 @@
                 
             </sourceDesc>
         </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#北条貞顕">北条貞顕</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#釼阿">釼阿</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
     </teiHeader>
     <text>
         <body>
@@ -56,8 +66,8 @@
             <lb/>亦不漏便風承候者本
             <lb/>意候哉、毎事又々可啓候也、
             <lb/>恐々謹言、
-            <lb/>　　<date when="" when-custom="正安四年八月四日">八月四日</date>　　<persName corresp="#北条貞顕">左近将監</persName><signed type="parallel" xml:id="o-0001">（花押）</signed>
-            <lb/>　明忍<persName corresp="#釼阿">御房</persName>
+            <lb/>　　<date when-custom="正安四年八月四日">八月四日</date>　　<persName corresp="#北条貞顕">左近将監</persName><note type="sign" xml:id="o-0001">（花押）</note>
+            <lb/>　<persName corresp="#釼阿">明忍御房</persName>
             </p>
             </div>
         </body>
