@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/ldasjp8/tei-example/main/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>金沢貞顕書状</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication</p>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person xml:id="安達時顕">
+                        <persName>安達時顕</persName>
+                        <note type="schema:url">https://ja.wikipedia.org/wiki/%E5%AE%89%E9%81%94%E6%99%82%E9%A1%95</note>
+                        <note type="org">（延明・安達時顕）</note>
+                    </person>
+                    <person xml:id="北条時益">
+                        <persName>北条時益</persName>
+                        <note type="schema:url">https://ja.wikipedia.org/wiki/北条時益</note>
+                        <note type="org">（北条）</note>
+                    </person>
+                    <person xml:id="糟屋孫三郎入道">
+                        <persName>糟屋孫三郎入道</persName>
+                        <note type="org">（道暁・長義）</note>
+                    </person>
+
+
+
+                </listPerson>
+                <listPlace>
+                    <place xml:id="玉縄藩">
+                        <placeName>玉縄藩</placeName>
+                        <location>
+                            <geo>35.350972, 139.514556</geo>
+                        </location>
+                        <note type="schema:url">https://kotobank.jp/word/%E7%94%98%E7%B8%84%E8%97%A9-27187</note>
+                        <note type="org">（相模国）</note>
+                    </place>
+                    <place xml:id="扇ヶ谷">
+                        <placeName>扇ヶ谷</placeName>
+                        <location>
+                            <geo>35.32565, 139.549481</geo>
+                        </location>
+                        <note type="schema:url">https://ja.wikipedia.org/wiki/%E6%89%87%E3%83%B6%E8%B0%B7</note>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        <xenoData>
+            <![CDATA[ 
+  <style>
+    * {
+       overflow-y:auto;writing-mode:vertical-rl;
+       font-size: 30px;
+   }
+
+   lb:before {
+       content:'\a';
+       white-space:pre
+   }
+
+    orig {
+      color: red;
+    }
+
+    reg::before {
+    content: "（";
+   }
+   reg {
+    color: gray;
+   }
+    reg::after {
+      content: "）";
+    }
+
+    note {
+      display: none;
+    }
+
+    persName {
+      color: blue;
+    }
+
+    space[quantity="2"]:after {
+      content: "　　";
+    }
+
+    date {
+      color: green;
+    }
+
+    placeName {
+        color: purple;
+    }
+
+    time {
+        color: orange;
+    }
+  </style>
+  ]]>
+        </xenoData>
+    </teiHeader>
+    <text>
+        <body>
+<div type="original">
+<p>
+<lb/>
+一、
+<date>去月十九日</date>
+夜、
+<placeName corresp="#玉縄藩">甘縄</placeName>
+の
+<persName corresp="#安達時顕">城入道</persName>
+の地の南頬に
+<persName>
+いな
+<lb/>
+<space quantity="2"/>
+かき左衛門入道
+</persName>
+宿所の候より炎上出来候て、其辺
+<lb/>
+<space quantity="2"/>
+やけ候ぬ、南者
+<persName corresp="#北条時益">越後大夫将監時益</persName>
+北まてと承候、
+<lb/>
+<space quantity="2"/>
+彼家人
+<persName corresp="#糟屋孫三郎入道">糟屋孫三郎入道</persName>
+以下数輩焼失候、北者
+<lb/>
+<space quantity="2"/>
+<persName corresp="#安達時顕">城入道</persName>
+宿所を立られ候はむとて、人を悉被
+<lb/>
+<space quantity="2"/>
+立候程に、そのあきにてとゝまり候ぬ、南風にて
+<lb/>
+<space quantity="2"/>
+候しほとに、此辺も仰天候き、
+<placeName corresp="#玉縄藩" ana="（甘縄）">北斗堂</placeName>
+計
+<lb/>
+<space quantity="2"/>
+のかれて候之由承候、目出候、々々々、
+<lb/>
+一、
+<date>去夜</date>
+<time>亥刻</time>
+計ニ、
+<placeName corresp="#扇ヶ谷" ana="（相模国）">扇谷</placeName>
+の
+<persName ana="（大仏）">右馬権助家時</persName>
+門前
+<lb/>
+<space quantity="2"/>
+より火いてき
+</p>
+</div>
+</body>
+    </text>
+</TEI>
