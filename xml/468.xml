@@ -31,6 +31,13 @@
                         </location>
                         <note type="schema:url">URL</note>
                     </place>
+                    <place xml:id="園城寺">
+                        <placeName>園城寺</placeName>
+                        <location>
+                            <geo>緯度, 経度</geo>
+                        </location>
+                        <note type="schema:url">URL</note>
+                    </place>
                 </listPlace>
             </sourceDesc>
         </fileDesc>
@@ -40,7 +47,7 @@
         <body>
             <div type="original">
                 <p>
-                    <lb/><placeName ana="延暦寺" corresp="#延暦寺">山門</placeName><placeName ana="園城寺" corresp="#園城寺">与寺門</placeName>（園城寺）事、六波羅重注進到来之間、今日有評定、可御使上洛之由
+                    <lb/><placeName ana="延暦寺" corresp="#延暦寺">山門</placeName><placeName ana="園城寺" corresp="#園城寺">与寺門</placeName>事、<placeName corresp="#六波羅">六波羅</placeName>重注進到来之間、今日有評定、可御使上洛之由
 <lb/>落居候了、兼又鎮西両寺（東妙寺・妙法寺）
 <lb/>御願寺事、同今日有沙汰、
 <lb/>被免候了、尤以目出候、彼僧（東妙寺知事良円）
