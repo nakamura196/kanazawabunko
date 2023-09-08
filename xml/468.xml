@@ -23,17 +23,24 @@
                         <note type="schema:url">URL</note>
                     </place>
                 </listPlace>
+                <listPlace>
+                    <place xml:id="延暦寺">
+                        <placeName>延暦寺</placeName>
+                        <location>
+                            <geo>緯度, 経度</geo>
+                        </location>
+                        <note type="schema:url">URL</note>
+                    </place>
+                </listPlace>
             </sourceDesc>
         </fileDesc>
-        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData>
-            
-        </xenoData>
-    </teiHeader>
+        
+    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
     <text>
         <body>
             <div type="original">
                 <p>
-                    <lb/><placeName ana="延暦寺" corresp="#延暦寺"><placeName ana="延暦寺" corresp="#延暦寺">山門</placeName></placeName>（延暦寺）与寺門（園城寺）事、六波羅重注進到来之間、今日有評定、可御使上洛之由
+                    <lb/><placeName ana="延暦寺" corresp="#延暦寺">山門</placeName><placeName ana="園城寺" corresp="#園城寺">与寺門</placeName>（園城寺）事、六波羅重注進到来之間、今日有評定、可御使上洛之由
 <lb/>落居候了、兼又鎮西両寺（東妙寺・妙法寺）
 <lb/>御願寺事、同今日有沙汰、
 <lb/>被免候了、尤以目出候、彼僧（東妙寺知事良円）
