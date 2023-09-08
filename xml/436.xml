@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -45,25 +47,86 @@
                 </listPlace>
             </sourceDesc>
         </fileDesc>
-        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><xenoData>
-            
+        <xenoData>
+            <![CDATA[ 
+  <style>
+    * {
+       overflow-y:auto;writing-mode:vertical-rl;
+       font-size: 30px;
+   }
+
+   lb:before {
+       content:'\a';
+       white-space:pre
+   }
+
+    orig {
+      color: red;
+    }
+
+    reg::before {
+    content: "（";
+   }
+   reg {
+    color: gray;
+   }
+    reg::after {
+      content: "）";
+    }
+
+    note {
+      display: none;
+    }
+
+    persName {
+      color: blue;
+    }
+
+    space[quantity="2"]:after {
+      content: "　　";
+    }
+
+    date {
+      color: green;
+    }
+
+    placeName {
+        color: purple;
+    }
+
+    time {
+        color: orange;
+    }
+  </style>
+  ]]>
         </xenoData>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="original">
-                <p>
-                    <lb/><persName corresp="#寂円">寂円</persName>帰洛之便、禅札委細承候畢、<placeName corresp="#関東">関東</placeName>悉未落居之様其聞候、実事候者、就公私
-<lb/>歎入候、於<placeName corresp="#京都">京都</placeName>当時無殊
-<lb/>事候也、<placeName corresp="埴生庄" ana="（下総国）">埴生庄</placeName>・<placeName corresp="北郡" ana="（常陸国）">北郡</placeName>両政所
-<lb/>以下事承候畢、又<persName corresp="安達時顕" ana="（安達時顕）">別駕</persName>女房
-<lb/>御事、両条共以申領状候了、
-<lb/><persName ana="aaa" corresp="#あああ">委</persName>旨以<persName ana="（武）" corresp="#康幹">康幹</persName>申候也、如屏風
-<lb/>硯進物事、可存其旨候、去比
-<lb/>左道物進候畢、向後も可
-<lb/>得其意候、如此示給候、殊本意候、
-                </p>
-            </div>
-        </body>
-    </text>
+
+    </xenoData>
+</teiHeader>
+<text>
+    <body>
+        <div type="original">
+            <p>
+                <lb/>
+                <persName corresp="#寂円">寂円</persName>帰洛之便、禅札委細承候畢、                <placeName corresp="#関東">関東</placeName>悉未落居之様其聞候、実事候者、就公私
+                <lb/>
+歎入候、於                <placeName corresp="#京都">京都</placeName>当時無殊
+                <lb/>
+事候也、                <placeName corresp="埴生庄" ana="（下総国）">埴生庄</placeName>・                <placeName corresp="北郡" ana="（常陸国）">北郡</placeName>両政所
+                <lb/>
+以下事承候畢、又                <persName corresp="安達時顕" ana="（安達時顕）">別駕</persName>女房
+                <lb/>
+御事、両条共以申領状候了、
+                <lb/>
+                <persName ana="aaa" corresp="#あああ">委</persName>旨以                <persName ana="（武）" corresp="#康幹">康幹</persName>申候也、如屏風
+                <lb/>
+硯進物事、可存其旨候、去比
+                <lb/>
+左道物進候畢、向後も可
+                <lb/>
+得其意候、如此示給候、殊本意候、
+            </p>
+        </div>
+    </body>
+</text>
 </TEI>
