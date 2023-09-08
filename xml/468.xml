@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/ldasjp8/tei-example/main/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -11,6 +13,10 @@
                 <listPerson>
                     <person xml:id="人名サンプル">
                         <persName>名前</persName>
+                        <note type="schema:url">URL</note>
+                    </person>
+                    <person xml:id="良円">
+                        <persName>良円</persName>
                         <note type="schema:url">URL</note>
                     </person>
                 </listPerson>
@@ -38,11 +44,70 @@
                         </location>
                         <note type="schema:url">URL</note>
                     </place>
+                    <place xml:id="瀬戸橋">
+                        <placeName>瀬戸橋</placeName>
+                        <location>
+                            <geo>35.33296511091939, 139.62338652883636</geo>
+                        </location>
+                        <note type="schema:url">URL</note>
+                    </place>
                 </listPlace>
             </sourceDesc>
         </fileDesc>
-        
-    <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData></teiHeader>
+        <xenoData>
+            <![CDATA[ 
+  <style>
+    * {
+       overflow-y:auto;writing-mode:vertical-rl;
+       font-size: 30px;
+   }
+
+   lb:before {
+       content:'\a';
+       white-space:pre
+   }
+
+    orig {
+      color: red;
+    }
+
+    reg::before {
+    content: "（";
+   }
+   reg {
+    color: gray;
+   }
+    reg::after {
+      content: "）";
+    }
+
+    note {
+      display: none;
+    }
+
+    persName {
+      color: blue;
+    }
+
+    space[quantity="2"]:after {
+      content: "　　";
+    }
+
+    date {
+      color: green;
+    }
+
+    placeName {
+        color: purple;
+    }
+
+    time {
+        color: orange;
+    }
+  </style>
+  ]]>
+        </xenoData>
+    </teiHeader>
     <text>
         <body>
             <div type="original">
@@ -50,7 +115,7 @@
                     <lb/><placeName ana="延暦寺" corresp="#延暦寺">山門</placeName><placeName ana="園城寺" corresp="#園城寺">与寺門</placeName>事、<placeName corresp="#六波羅">六波羅</placeName>重注進到来之間、今日有評定、可御使上洛之由
 <lb/>落居候了、兼又鎮西両寺（東妙寺・妙法寺）
 <lb/>御願寺事、同今日有沙汰、
-<lb/>被免候了、尤以目出候、彼僧（東妙寺知事良円）
+<lb/>被免候了、尤以目出候、彼<persName corresp="#良円">僧</persName>（東妙寺知事良円）
 <lb/>定被悦喜候歟、又<placeName corresp="#瀬戸橋">瀬戸橋</placeName>
 <lb/>事、□□（何比ヵ）可出来候哉、可
                 </p>
