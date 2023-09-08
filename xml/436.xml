@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="null" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="null"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/ldasjp8/tei-example/main/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -100,33 +100,31 @@
   </style>
   ]]>
         </xenoData>
-
-    </xenoData>
-</teiHeader>
-<text>
-    <body>
-        <div type="original">
-            <p>
-                <lb/>
-                <persName corresp="#寂円">寂円</persName>帰洛之便、禅札委細承候畢、                <placeName corresp="#関東">関東</placeName>悉未落居之様其聞候、実事候者、就公私
-                <lb/>
-歎入候、於                <placeName corresp="#京都">京都</placeName>当時無殊
-                <lb/>
-事候也、                <placeName corresp="埴生庄" ana="（下総国）">埴生庄</placeName>・                <placeName corresp="北郡" ana="（常陸国）">北郡</placeName>両政所
-                <lb/>
-以下事承候畢、又                <persName corresp="安達時顕" ana="（安達時顕）">別駕</persName>女房
-                <lb/>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="original">
+                <p>
+                    <lb/>
+                    <persName corresp="#寂円">寂円</persName>帰洛之便、禅札委細承候畢、                    <placeName corresp="#関東">関東</placeName>悉未落居之様其聞候、実事候者、就公私
+                    <lb/>
+歎入候、於                    <placeName corresp="#京都">京都</placeName>当時無殊
+                    <lb/>
+事候也、                    <placeName corresp="#埴生庄" ana="（下総国）">埴生庄</placeName>・                    <placeName corresp="#北郡" ana="（常陸国）">北郡</placeName>両政所
+                    <lb/>
+以下事承候畢、又                    <persName corresp="#安達時顕" ana="（安達時顕）">別駕</persName>女房
+                    <lb/>
 御事、両条共以申領状候了、
-                <lb/>
-                <persName ana="aaa" corresp="#あああ">委</persName>旨以                <persName ana="（武）" corresp="#康幹">康幹</persName>申候也、如屏風
-                <lb/>
+                    <lb/>
+                    <persName ana="aaa" corresp="#あああ">委</persName>旨以                    <persName ana="（武）" corresp="#康幹">康幹</persName>申候也、如屏風
+                    <lb/>
 硯進物事、可存其旨候、去比
-                <lb/>
+                    <lb/>
 左道物進候畢、向後も可
-                <lb/>
+                    <lb/>
 得其意候、如此示給候、殊本意候、
-            </p>
-        </div>
-    </body>
-</text>
+                </p>
+            </div>
+        </body>
+    </text>
 </TEI>
